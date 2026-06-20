@@ -35,7 +35,7 @@ jobs:
         id: meta
         uses: docker/metadata-action@v5.5.1
         with:
-          images: karina23twins/my_app
+          images: karina23twins/final-main-boss
 
       - name: Build and push Docker Image
         uses: docker/build-push-action@v5
